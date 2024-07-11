@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "87mxw8D+vFhOy2dh5VnlmdqiozrRHN9a7qKnT1/l34xdBdoTxDimXO8h4kRo93QcUbVdkKAe8IT7qgKnYA0inA==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\MaxCare\\bin\\Debug\\net48\\SourceXnet\\xNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luu Tien Dung\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Luu Tien Dung\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net40\\1.0.3\\microsoft.netframework.referenceassemblies.net40.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

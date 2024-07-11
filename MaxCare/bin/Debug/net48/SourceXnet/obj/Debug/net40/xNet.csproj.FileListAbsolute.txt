@@ -1,0 +1,9 @@
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\bin\Debug\net40\xNet.dll
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\bin\Debug\net40\xNet.pdb
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.csproj.AssemblyReference.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.Resources.resources
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.csproj.GenerateResource.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.csproj.CoreCompileInputs.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.dll
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceXnet\obj\Debug\net40\xNet.pdb

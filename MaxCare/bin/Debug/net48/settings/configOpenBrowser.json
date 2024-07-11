@@ -1,0 +1,17 @@
+{
+  "isUseProfile": "False",
+  "typeLogin": "2",
+  "typeBrowserLogin": "0",
+  "ckbAddChromeIntoForm": "False",
+  "nudWidthChrome": "520",
+  "nudHeighChrome": "480",
+  "cbbColumnChrome": "5",
+  "cbbRowChrome": "2",
+  "isGetCookie": "False",
+  "ckbGetToken": "False",
+  "ckbKhongLuuTrinhDuyet": "False",
+  "isAutoCloseChromeLoginFail": "True",
+  "ckbAutoOpenLink": "False",
+  "txtLink": "",
+  "ckbLoginHotmail": "False"
+}

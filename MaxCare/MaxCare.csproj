@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>LTDSoftware</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_Kitsune_Okami.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="NewFolder - Copy %282%29\**" />
+    <Compile Remove="NewFolder - Copy %283%29\**" />
+    <EmbeddedResource Remove="NewFolder - Copy %282%29\**" />
+    <EmbeddedResource Remove="NewFolder - Copy %283%29\**" />
+    <None Remove="NewFolder - Copy %282%29\**" />
+    <None Remove="NewFolder - Copy %283%29\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_Kitsune_Okami.ico" />
+    <EmbeddedResource Include="costura32.main.dll" LogicalName="costura32.main.dll" />
+    <EmbeddedResource Include="costura64.main.dll" LogicalName="costura64.main.dll" />
+    <EmbeddedResource Include="costura.bunifu_ui_v1.52.dll.compressed" LogicalName="costura.bunifu_ui_v1.52.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.entityframework.dll.compressed" LogicalName="costura.entityframework.dll.compressed" />
+    <EmbeddedResource Include="costura.entityframework.sqlserver.dll.compressed" LogicalName="costura.entityframework.sqlserver.dll.compressed" />
+    <EmbeddedResource Include="costura.http.dll.compressed" LogicalName="costura.http.dll.compressed" />
+    <EmbeddedResource Include="costura.managedwinapi.dll.compressed" LogicalName="costura.managedwinapi.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" LogicalName="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.dll.compressed" LogicalName="costura.system.data.sqlite.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.ef6.dll.compressed" LogicalName="costura.system.data.sqlite.ef6.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlite.linq.dll.compressed" LogicalName="costura.system.data.sqlite.linq.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" LogicalName="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.system.memory.dll.compressed" LogicalName="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="costura.system.numerics.vectors.dll.compressed" LogicalName="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" LogicalName="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="costura.webdriver.dll.compressed" LogicalName="costura.webdriver.dll.compressed" />
+    <EmbeddedResource Include="costura.webdriver.support.dll.compressed" LogicalName="costura.webdriver.support.dll.compressed" />
+    <EmbeddedResource Include="costura.xnet.dll.compressed" LogicalName="costura.xnet.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AE.Net.Mail">
+      <HintPath>..\..\SourceLib\MaxCareLib\MaxCareLib\bin\Debug\net48\AE.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceId">
+      <HintPath>bin\Debug\net48\DeviceId.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Http">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\Http.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\SourceGoc\MaxCare\bin\Debug\net48\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="xNet">
+      <HintPath>..\..\SourceLib\MaxCareLib\MaxCareLib\bin\Debug\net48\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+namespace dummy;
+
+internal class _007B40704cc3_002D2998_002D40b1_002D9413_002Dd2308046510d_007D
+{
+}

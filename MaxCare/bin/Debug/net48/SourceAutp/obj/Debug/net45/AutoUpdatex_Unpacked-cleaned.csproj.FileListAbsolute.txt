@@ -1,0 +1,15 @@
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdatex_Unpacked-cleaned.csproj.AssemblyReference.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\Class7.resources
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\fUpdate.resources
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\fUpdateContent.resources
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdatex_Unpacked-cleaned.csproj.GenerateResource.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdatex_Unpacked-cleaned.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdatex_Unpacked-cleaned.csproj.CoreCompileInputs.cache
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\bin\Debug\net45\AutoUpdate.exe.config
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\bin\Debug\net45\AutoUpdate.exe
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\bin\Debug\net45\AutoUpdate.pdb
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\bin\Debug\net45\Bunifu_UI_v1.52.dll
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\bin\Debug\net45\MetroFramework.dll
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdatex_Unpacked-cleaned.csproj.CopyComplete
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdate.exe
+D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\bin\Debug\net48\SourceAutp\obj\Debug\net45\AutoUpdate.pdb

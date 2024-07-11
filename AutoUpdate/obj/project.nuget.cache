@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PIL+3m1kZKiNrkbRtyJWbCFhHCFKu9ZHCasQqMVuIQzI/z5srFP2+Zwhb4HTFA2dKLIxZHPZbErXP3D+D4IcRg==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\AutoUpdate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luu Tien Dung\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Luu Tien Dung\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

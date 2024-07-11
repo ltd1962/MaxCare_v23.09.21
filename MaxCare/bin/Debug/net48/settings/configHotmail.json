@@ -1,0 +1,18 @@
+{
+  "ckbUseProfile": "False",
+  "ckbCloseChrome": "False",
+  "cbbChangeIP": "0",
+  "ckbThemKyTuGetnada": "True",
+  "typeKyTu": "0",
+  "txtKyTuChiDinh": "@hotmail.com",
+  "nudTimeoutGetOtpGetnada": "60",
+  "ckbXoaMailKhoiPhucCu": "True",
+  "cbbDomain": "getnada.com",
+  "typePassword": "0",
+  "txtPassChiDinh": "",
+  "typeSim": "0",
+  "txtApiPhone_0": "",
+  "nudTimeoutGetOtpPhone": "60",
+  "ckbThemMailKhoiPhuc": "False",
+  "lstProxyGetnada": ""
+}

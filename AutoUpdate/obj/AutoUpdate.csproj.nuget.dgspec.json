@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\AutoUpdate.csproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\AutoUpdate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\AutoUpdate.csproj",
+        "projectName": "AutoUpdate",
+        "projectPath": "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\AutoUpdate.csproj",
+        "packagesPath": "C:\\Users\\Luu Tien Dung\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Tool Unpack - Crack MMO\\VMPUnpacker .NET\\MaxCare_v23.04.17-Fix AdsPack\\Source210923\\AutoUpdate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luu Tien Dung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

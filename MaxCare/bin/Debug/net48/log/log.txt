@@ -1,0 +1,1422 @@
+-----------------------------------------------------------------------------
+Date: 24/10/2022 22:42:36
+File: 24_10_2022_22_42_36_9091
+Error: Run Program
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at GClass14.GetDeviceId()
+   at GClass14.smethod_2()
+   at fIntro.timer_0_Tick(Object sender, EventArgs e)
+-----------------------------------------------------------------------------
+Date: 24/10/2022 23:26:07
+File: 24_10_2022_23_26_7_2596
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 106.0.5249.119 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass9.method_0()
+-----------------------------------------------------------------------------
+Date: 15/12/2022 19:31:55
+File: 15_12_2022_19_31_55_3076
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass14.method_1()
+-----------------------------------------------------------------------------
+Date: 15/12/2022 19:32:48
+File: 15_12_2022_19_32_48_4093
+Error: Error Login Uid Pass
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at GClass19.GetTotp(Byte[] byte_0)
+   at GClass19.smethod_86(String string_0, Int32 int_2)
+   at GClass20.smethod_28(GClass14 gclass14_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Int32 int_2, Boolean bool_1)
+-----------------------------------------------------------------------------
+Date: 15/12/2022 19:33:17
+File: 15_12_2022_19_33_17_9828
+Error: Error Login Uid Pass
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at GClass19.GetTotp(Byte[] byte_0)
+   at GClass19.smethod_86(String string_0, Int32 int_2)
+   at GClass20.smethod_28(GClass14 gclass14_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Int32 int_2, Boolean bool_1)
+-----------------------------------------------------------------------------
+Date: 15/12/2022 19:36:48
+File: 15_12_2022_19_36_48_7971
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass20.smethod_28(GClass14 gclass14_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Int32 int_2, Boolean bool_1)
+-----------------------------------------------------------------------------
+Date: 21/04/2023 19:59:22
+File: 21_4_2023_19_59_22_4606
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 21/04/2023 19:59:24
+File: 21_4_2023_19_59_24_1819
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 21/04/2023 20:15:36
+Error: HDAddMail
+
+Type: OpenQA.Selenium.NoSuchFrameException
+Message: no such frame
+  (Session info: chrome=112.0.5615.138)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(Int32 frameIndex)
+   at GForm163.method_70(String& string_1, String& string_2, Int32 int_3, String string_3, GClass5 gclass5_0, GClass16 gclass16_0, String string_4, String string_5)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 23/04/2023 09:52:40
+File: 23_4_2023_9_52_40_4336
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 22:28:26
+File: 24_4_2023_22_28_26_1073
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 23:26:24
+File: 24_4_2023_23_26_24_6613
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 23:41:23
+File: 24_4_2023_23_41_23_5659
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 23:43:53
+Error: HDAddMail
+
+Type: OpenQA.Selenium.NoSuchFrameException
+Message: no such frame
+  (Session info: chrome=112.0.5615.138)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(Int32 frameIndex)
+   at GForm163.method_70(String& string_1, String& string_2, Int32 int_3, String string_3, GClass5 gclass5_0, GClass16 gclass16_0, String string_4, String string_5)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 23:51:10
+Error: HDAddMail
+
+Type: OpenQA.Selenium.NoSuchFrameException
+Message: no such frame
+  (Session info: chrome=112.0.5615.138)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(Int32 frameIndex)
+   at GForm163.method_70(String& string_1, String& string_2, Int32 int_3, String string_3, GClass5 gclass5_0, GClass16 gclass16_0, String string_4, String string_5)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 24/04/2023 23:51:35
+Error: HDAddMail
+
+Type: OpenQA.Selenium.NoSuchFrameException
+Message: no such frame
+  (Session info: chrome=112.0.5615.138)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(Int32 frameIndex)
+   at GForm163.method_70(String& string_1, String& string_2, Int32 int_3, String string_3, GClass5 gclass5_0, GClass16 gclass16_0, String string_4, String string_5)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 25/04/2023 00:22:34
+File: 25_4_2023_0_22_34_8607
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 25/04/2023 00:22:35
+File: 25_4_2023_0_22_35_6791
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 25/04/2023 00:22:35
+File: 25_4_2023_0_22_35_2935
+Error: Error Login Uid Pass
+
+Type: System.InvalidCastException
+Message: Unable to cast object of type 'System.Int32' to type 'System.String'.
+StackTrace:    at GClass14.smethod_28(GClass5 gclass5_0, String string_0, String string_1, String string_2, String string_3, Int32 int_0, Boolean bool_0, Int32 int_1, Boolean bool_1, Boolean bool_2)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:22:04
+Error: HDShareBai
+
+Type: System.DivideByZeroException
+Message: Attempted to divide by zero.
+StackTrace:    at GForm163.method_125(Int32 int_3, String string_1, GClass5 gclass5_0, GClass16 gclass16_0, String string_2, String string_3)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:22:05
+Error: HDShareBai
+
+Type: System.DivideByZeroException
+Message: Attempted to divide by zero.
+StackTrace:    at GForm163.method_125(Int32 int_3, String string_1, GClass5 gclass5_0, GClass16 gclass16_0, String string_2, String string_3)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:22:07
+Error: HDShareBai
+
+Type: System.DivideByZeroException
+Message: Attempted to divide by zero.
+StackTrace:    at GForm163.method_125(Int32 int_3, String string_1, GClass5 gclass5_0, GClass16 gclass16_0, String string_2, String string_3)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:30:54
+File: 29_4_2023_17_30_54_7040
+Error: ExecuteScalar: SELECT MAX(STT) FROM files
+
+Type: System.InvalidCastException
+Message: Specified cast is not valid.
+StackTrace:    at GClass11.method_5(String string_1)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:31:39
+Error: HDShareBai
+
+Type: System.DivideByZeroException
+Message: Attempted to divide by zero.
+StackTrace:    at GForm163.method_125(Int32 int_3, String string_1, GClass5 gclass5_0, GClass16 gclass16_0, String string_2, String string_3)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:31:41
+Error: HDShareBai
+
+Type: System.DivideByZeroException
+Message: Attempted to divide by zero.
+StackTrace:    at GForm163.method_125(Int32 int_3, String string_1, GClass5 gclass5_0, GClass16 gclass16_0, String string_2, String string_3)
+   at GForm163.method_52(Int32 int_3, Int32 int_4, String string_1, GClass16 gclass16_0)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:32:05
+File: 29_4_2023_17_32_5_3801
+Error: ExecuteNonQuery: update accounts set interactEnd = '29/04/2023 17:32:05' where id=
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+incomplete input
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at GClass11.method_4(String string_1)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:32:05
+File: 29_4_2023_17_32_5_7030
+Error: ExecuteNonQuery: update accounts set info = 'Live' where id=
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+incomplete input
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at GClass11.method_4(String string_1)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:32:06
+File: 29_4_2023_17_32_6_7815
+Error: ExecuteNonQuery: update accounts set interactEnd = '29/04/2023 17:32:06' where id=
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+incomplete input
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at GClass11.method_4(String string_1)
+-----------------------------------------------------------------------------
+Date: 29/04/2023 17:32:06
+File: 29_4_2023_17_32_6_7815
+Error: ExecuteNonQuery: update accounts set info = 'Live' where id=
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+incomplete input
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at GClass11.method_4(String string_1)
+-----------------------------------------------------------------------------
+Date: 19-07-2023 00:20:38
+File: 19_7_2023_0_20_38_8895
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Class154.resources" was correctly embedded or linked into assembly "MaxCare" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at Resources.get_Bitmap_3() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Resources.cs:line 85
+   at ucContact.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 189
+   at ucContact..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 47
+   at fIntro.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 203
+   at fIntro..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 30
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Program.cs:line 40
+-----------------------------------------------------------------------------
+Date: 19-07-2023 00:21:00
+File: 19_7_2023_0_21_0_4737
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Class154.resources" was correctly embedded or linked into assembly "MaxCare" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at Resources.get_Bitmap_3() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Resources.cs:line 85
+   at ucContact.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 189
+   at ucContact..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 47
+   at fIntro.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 203
+   at fIntro..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 30
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Program.cs:line 40
+-----------------------------------------------------------------------------
+Date: 19-07-2023 00:22:06
+File: 19_7_2023_0_22_6_9544
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Class154.resources" was correctly embedded or linked into assembly "MaxCare" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at Resources.get_Bitmap_3() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Resources.cs:line 85
+   at ucContact.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 189
+   at ucContact..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 47
+   at fIntro.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 203
+   at fIntro..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 30
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Program.cs:line 40
+-----------------------------------------------------------------------------
+Date: 19-07-2023 00:22:38
+File: 19_7_2023_0_22_38_7821
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Class154.resources" was correctly embedded or linked into assembly "MaxCare" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at Resources.get_Bitmap_3() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Resources.cs:line 85
+   at ucContact.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 189
+   at ucContact..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\ucContact.cs:line 47
+   at fIntro.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 203
+   at fIntro..ctor() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fIntro.cs:line 30
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Program.cs:line 40
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:02:35
+File: 19_7_2023_1_2_35_8895
+Error: ExecuteScalar: SELECT MAX(STT) FROM files
+
+Type: System.InvalidCastException
+Message: Specified cast is not valid.
+StackTrace:    at Connector.ExecuteScalar(String FD9FB207) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Connector.cs:line 148
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:04:41
+File: 19_7_2023_1_4_41_3916
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:06:24
+File: 19_7_2023_1_6_24_9866
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:07:04
+File: 19_7_2023_1_7_4_1795
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:08:29
+File: 19_7_2023_1_8_29_8616
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:09:13
+File: 19_7_2023_1_9_13_3029
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:09:49
+File: 19_7_2023_1_9_49_6615
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:16:37
+File: 19_7_2023_1_16_37_9454
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 01:18:08
+File: 19_7_2023_1_18_8_1458
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.DriverServiceNotFoundException
+Message: The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+StackTrace:    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 977
+-----------------------------------------------------------------------------
+Date: 19-07-2023 18:33:22
+Error: HDTaoPage
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at Common.GetText(Byte[] byte_0)
+   at Common.GetText1(String E20C7718) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Common.cs:line 202
+   at Chrome.C0155183() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 4432
+   at Chrome.AB3519B4(String DB878737, String string_11) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 4325
+   at fMain.method_97(String& DD2D1B2C, Int32 int_0, String string_1, Chrome gclass4_0, JSON_Settings DD3068A7, String A9BB5A8D) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 23058
+   at fMain.ExcuteOneThread(Int32 int_0, Int32 int_1, String E039B333, JSON_Settings BC2BA81B) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 7511
+-----------------------------------------------------------------------------
+Date: 20-07-2023 13:27:02
+File: 20_7_2023_13_27_2_7575
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 20-07-2023 13:28:50
+File: 20_7_2023_13_28_50_2466
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 20-07-2023 14:24:59
+File: 20_7_2023_14_24_59_4774
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 20-07-2023 18:11:24
+File: 20_7_2023_18_11_24_8328
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 20-07-2023 18:13:39
+File: 20_7_2023_18_13_39_3399
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 20-07-2023 18:13:46
+File: 20_7_2023_18_13_46_3193
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at GClass5.method_1()
+-----------------------------------------------------------------------------
+Date: 21-07-2023 14:42:25
+File: 21_7_2023_14_42_25_9038
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 21-07-2023 14:42:37
+File: 21_7_2023_14_42_37_1758
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 21-07-2023 14:45:19
+File: 21_7_2023_14_45_19_8893
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.HDMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 36991
+-----------------------------------------------------------------------------
+Date: 21-07-2023 17:42:00
+File: 21_7_2023_17_42_0_1396
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.HDMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 36991
+-----------------------------------------------------------------------------
+Date: 21-07-2023 23:29:39
+File: 21_7_2023_23_29_39_2412
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 21-07-2023 23:29:58
+File: 21_7_2023_23_29_58_6526
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 21-07-2023 23:40:22
+File: 21_7_2023_23_40_22_4918
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings)
+-----------------------------------------------------------------------------
+Date: 22-07-2023 00:38:40
+File: 22_7_2023_0_38_40_7675
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 22-07-2023 00:47:32
+File: 22_7_2023_0_47_32_7508
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37165
+-----------------------------------------------------------------------------
+Date: 22-07-2023 01:22:38
+File: 22_7_2023_1_22_38_7641
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37167
+-----------------------------------------------------------------------------
+Date: 22-07-2023 01:47:37
+File: 22_7_2023_1_47_37_1642
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37197
+-----------------------------------------------------------------------------
+Date: 22-07-2023 12:31:00
+File: 22_7_2023_12_31_0_1231
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 22-07-2023 12:31:33
+File: 22_7_2023_12_31_33_6848
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37183
+-----------------------------------------------------------------------------
+Date: 22-07-2023 15:22:22
+File: 22_7_2023_15_22_22_9983
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 22-07-2023 15:44:31
+File: 22_7_2023_15_44_31_2695
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37222
+-----------------------------------------------------------------------------
+Date: 22-07-2023 16:54:41
+File: 22_7_2023_16_54_41_5592
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37222
+-----------------------------------------------------------------------------
+Date: 22-07-2023 20:55:33
+File: 22_7_2023_20_55_33_1387
+Error: Lỗi không xác định!
+
+Type: Newtonsoft.Json.JsonReaderException
+Message: Error reading JObject from JsonReader. Path '', line 0, position 0.
+StackTrace:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at fMain.AddMailKp(Int32 row, Int32 DEB79FBC, JSON_Settings jsonSettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\fMain.cs:line 37222
+-----------------------------------------------------------------------------
+Date: 22-07-2023 21:18:04
+File: 22_7_2023_21_18_4_2611
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\SourceGoc\MaxCare\Chrome.cs:line 979
+-----------------------------------------------------------------------------
+Date: 26/09/2023 09:14:03
+File: 26_9_2023_9_14_3_2756
+Error: Run Program2
+
+Type: System.IO.FileNotFoundException
+Message: Could not load file or assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+StackTrace:    at fMain..ctor(String string_1)
+   at Program.Main()
+-----------------------------------------------------------------------------
+Date: 26/09/2023 09:14:27
+File: 26_9_2023_9_14_27_8166
+Error: Run Program2
+
+Type: System.IO.FileNotFoundException
+Message: Could not load file or assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+StackTrace:    at fMain..ctor(String string_1)
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 26/09/2023 13:25:15
+File: 26_9_2023_13_25_15_1103
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.smethod_15(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1042
+-----------------------------------------------------------------------------
+Date: 26/09/2023 13:31:31
+File: 26_9_2023_13_31_31_9709
+Error: Lỗi không xác định!
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at Common.GetText(Byte[] A930600D)
+   at Common.GetText(String string_0) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Common.cs:line 274
+   at Chrome.method_71() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 4524
+   at fMain.ExcuteOneThread(Int32 row, Int32 A217CF94, String string_1, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 7749
+-----------------------------------------------------------------------------
+Date: 26/09/2023 13:33:56
+File: 26_9_2023_13_33_56_5459
+Error: Lỗi không xác định!
+
+Type: System.DllNotFoundException
+Message: Unable to load DLL 'main': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+StackTrace:    at Common.GetText(Byte[] A930600D)
+   at Common.GetText(String string_0) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Common.cs:line 274
+   at Chrome.method_71() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 4524
+   at fMain.ExcuteOneThread(Int32 row, Int32 A217CF94, String string_1, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 7749
+-----------------------------------------------------------------------------
+Date: 26/09/2023 13:50:23
+File: 26_9_2023_13_50_23_8667
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 14:47:57
+File: 26_9_2023_14_47_57_4813
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 15:03:07
+File: 26_9_2023_15_3_7_6550
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 15:30:31
+File: 26_9_2023_15_30_31_2728
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 15:42:22
+File: 26_9_2023_15_42_22_3457
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 15:53:18
+File: 26_9_2023_15_53_18_2668
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 19:13:17
+File: 26_9_2023_19_13_17_8373
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 26/09/2023 20:27:54
+File: 26_9_2023_20_27_54_6456
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 27/09/2023 08:21:02
+File: 27_9_2023_8_21_2_1422
+Error: Run Program2
+
+Type: System.IO.FileNotFoundException
+Message: Could not load file or assembly 'MinsoftLib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+StackTrace:    at fMain..ctor(String string_1)
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 01/10/2023 00:15:31
+File: 1_10_2023_0_15_31_7293
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 01/10/2023 00:37:40
+File: 1_10_2023_0_37_40_2076
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 02/10/2023 01:03:25
+File: 2_10_2023_1_3_25_8978
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 02/10/2023 01:04:47
+File: 2_10_2023_1_4_47_5917
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 921
+-----------------------------------------------------------------------------
+Date: 06/10/2023 16:08:27
+File: 6_10_2023_16_8_27_6997
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.OpenHide() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 1100
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:38:18
+File: 10_10_2023_16_38_18_6325
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:38:40
+File: 10_10_2023_16_38_40_4581
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:38:49
+File: 10_10_2023_16_38_49_5730
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:40:33
+File: 10_10_2023_16_40_33_6098
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:41:26
+File: 10_10_2023_16_41_26_4544
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 10/10/2023 16:44:53
+File: 10_10_2023_16_44_53_6317
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 11/10/2023 07:12:20
+File: 11_10_2023_7_12_20_2523
+Error: Run Program2
+
+Type: System.Resources.MissingManifestResourceException
+Message: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "fMain.resources" was correctly embedded or linked into assembly "LTDSoftware" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+StackTrace:    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at fMain.InitializeComponent() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 41560
+   at fMain..ctor(String string_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\fMain.cs:line 5381
+   at Program.Main() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\maxcare\Program.cs:line 41
+-----------------------------------------------------------------------------
+Date: 13/10/2023 19:44:19
+File: 13_10_2023_19_44_19_2908
+
+Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+StackTrace:    at fMain.D4F58724.13432833()
+-----------------------------------------------------------------------------
+Date: 13/10/2023 19:49:01
+File: 13_10_2023_19_49_1_3200
+Error: ExecuteNonQuery: ALTER TABLE ➷➷➷➷➷➷➷➷↋↋↋↋↋↋↋↋↋↋↋↋↋status' TEXT;
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+unrecognized token: "' TEXT;"
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at wwMeoww(Connector , String )
+-----------------------------------------------------------------------------
+Date: 13/10/2023 19:49:01
+File: 13_10_2023_19_49_1_1728
+Error: ExecuteNonQuery: ALTER TABLE ↺↺↺↺↺↺↺↺↋↋↋↋↋↋↋↋↋↋↋↋↋status282' TEXT;
+
+Type: System.Data.SQLite.SQLiteException
+Message: SQL logic error
+unrecognized token: "' TEXT;"
+StackTrace:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at wwMeoww(Connector , String )
+-----------------------------------------------------------------------------
+Date: 13/10/2023 19:49:11
+File: 13_10_2023_19_49_11_8206
+Error: Run Program2
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.wMeow._____(Module module, MethodBase callingMethod, Int32 ID, Object[] parameters, Byte[] bytes)
+   at ConversionBack.wMeow.Meoww(String text, String show2, RuntimeTypeHandle type, Object[] parameters)
+   at fMain.7F1296C7(Object 18369FE9, EventArgs D8ACE834)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at wwMeoww()
+-----------------------------------------------------------------------------
+Date: 13/10/2023 21:09:02
+File: 13_10_2023_21_9_2_5142
+
+Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+StackTrace:    at fMain.C9A9E8C7.E83E0F7A()
+-----------------------------------------------------------------------------
+Date: 14/10/2023 23:01:44
+File: 14_10_2023_23_1_44_5762
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.wMeow.Meoww(String text, String show2, RuntimeTypeHandle type, Object[] parameters)
+   at fMain.B4AF2761(Object F9E24898, Int32 2CB13317, Int32 BB3459C, String 2B52E15A)
+   at fMain.17C6CB61.8308ED4C()
+-----------------------------------------------------------------------------
+Date: 14/10/2023 23:03:43
+File: 14_10_2023_23_3_43_8358
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.wMeow.Meoww(String text, String show2, RuntimeTypeHandle type, Object[] parameters)
+   at fMain.B4AF2761(Object F9E24898, Int32 2CB13317, Int32 BB3459C, String 2B52E15A)
+   at fMain.17C6CB61.8308ED4C()
+-----------------------------------------------------------------------------
+Date: 14/10/2023 23:03:44
+File: 14_10_2023_23_3_44_5316
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.wMeow.Meoww(String text, String show2, RuntimeTypeHandle type, Object[] parameters)
+   at fMain.B4AF2761(Object F9E24898, Int32 2CB13317, Int32 BB3459C, String 2B52E15A)
+   at fMain.17C6CB61.8308ED4C()
+-----------------------------------------------------------------------------
+Date: 14/10/2023 23:03:44
+File: 14_10_2023_23_3_44_6288
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.wMeow.Meoww(String text, String show2, RuntimeTypeHandle type, Object[] parameters)
+   at fMain.B4AF2761(Object F9E24898, Int32 2CB13317, Int32 BB3459C, String 2B52E15A)
+   at fMain.17C6CB61.8308ED4C()
+-----------------------------------------------------------------------------
+Date: 21/10/2023 23:15:08
+File: 21_10_2023_23_15_8_1073
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 922
+-----------------------------------------------------------------------------
+Date: 18/11/2023 18:41:02
+File: 18_11_2023_18_41_2_5191
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 11:29:11
+File: 19_11_2023_11_29_11_6377
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at Chrome.Open() in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 922
+-----------------------------------------------------------------------------
+Date: 19/11/2023 11:48:00
+File: 19_11_2023_11_48_0_6709
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 11:48:36
+File: 19_11_2023_11_48_36_4525
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 11:48:37
+File: 19_11_2023_11_48_37_3397
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:11:03
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19107
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:11:03
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19107
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:22:12
+File: 19_11_2023_12_22_11_7827
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:22:51
+File: 19_11_2023_12_22_51_4270
+Error: Error Login Uid Pass
+
+Type: System.FormatException
+Message: String was not recognized as a valid Boolean.
+StackTrace:    at System.Boolean.Parse(String value)
+   at CommonChrome.LoginFacebookUsingUidPassNew(Chrome C8819A33, String EF3C5192, String string_0, String string_1, String string_2, Boolean bool_0, Int32 A3B59696, Boolean bool_1) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\CommonChrome.cs:line 1126
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:25:56
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@aria-label, 'Hành động với bài viết này')]"}
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at Chrome.ScrollIntoViewv2(String elements) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 1806
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19097
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:48:10
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@aria-label, 'Hành động với bài viết này')]"}
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at Chrome.ScrollIntoViewv2(String elements) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 1806
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19097
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
+-----------------------------------------------------------------------------
+Date: 19/11/2023 12:50:57
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@aria-label, 'Hành động với bài viết này')]"}
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at Chrome.ScrollIntoViewv2(String elements) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\Chrome.cs:line 1806
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19106
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
+-----------------------------------------------------------------------------
+Date: 21/11/2023 20:26:14
+Error: HDXoaBaiTuong
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.160)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at fMain.method_71(Int32 int_2, String string_1, Chrome chrome, JSON_Settings E325640C, String DF9F16AD) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19064
+   at fMain.HDXoaBaiTuong(Int32 int_2, String BFAE73BC, Chrome chrome, JSON_Settings gclass8_0, String AD144BBE) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 19018
+   at fMain.ExecuteOneThread(Int32 row, Int32 indexPos, String idKichBan, JSON_Settings jsonsettings) in D:\Desktop\Tool Unpack - Crack MMO\VMPUnpacker .NET\MaxCare_v23.04.17-Fix AdsPack\Source210923\MaxCare\fMain.cs:line 8039
